@@ -8,14 +8,14 @@
 		var l = new MegaTimer(_id, {
 			"view": [1, 1, 1, 1],  // days hors minute seconds
 			"type": {
-				"currentType": "1",
+				"currentType": "1",		// type timers 
 				"params": {
 					"usertime": true,
 					"tz": "3",
 					"utc": 1516764800000
 				}
 			},
-			"design": {
+			"design": { 			// setings styles for timer
 				"type": "circle",
 				"params": {
 					"width": "5",
