@@ -20,7 +20,7 @@ function checkTimer(){
             });
 
             // allerw when stop
-            alert('Timer End');
+            console.log('Timer End');
         }
     });
 }
